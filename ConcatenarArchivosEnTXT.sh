@@ -11,7 +11,7 @@ ARCHIVO_SALIDA="proyecto_completo.txt"
 PATRONES_EXCLUIR_ARCHIVOS=".env *.png *.jpg *.jpeg *.pyc *.exe *.wasm *.svg *.apk *.aab *.webp *.bin *.jar *.lock *.ico *.bmp *.ttf *.mp3 *.pdf *.mmdb *.icns *.rtf *.pcap *.pcapng *.bkp *.bk *.pdb Cargo.lock *.min.js proyecto_completo.txt *.json .all-contributorsrc .dockerignore .editorconfig .gitattributes .gitignore .imgbotconfig LICENSE-APACHE LICENSE-MIT *.sh *.md *.db *.db-shm *.db-wal *.vsidx *.sqlite COPYING LICENSE gradlew gradlew.bat .gitmodules crash-*"
 
 # 3. Exclusión de directorios (común para contenido y mapa)
-CARPETAS_EXCLUIR="node_modules .git __pycache__ .idea .vscode .vs Resources bin obj .cxx cxx intermediates stash-dir .github resources build target debug out .design .well-known submodules generated fastlane docs tools ICONS_LICENSE"
+CARPETAS_EXCLUIR="node_modules .git __pycache__ .idea .vscode .vs Resources bin obj .cxx cxx intermediates stash-dir .github resources build target debug out .design .well-known submodules generated fastlane docs tools ICONS_LICENSE .gradle"
 
 # 4. ¿Deseas excluir este mismo script y el archivo de salida del resultado final?
 # (Se aplicará tanto al contenido como al mapa de estructura)
